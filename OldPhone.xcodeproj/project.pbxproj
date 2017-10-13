@@ -12,6 +12,8 @@
 		AF158AF71F86B82100C860DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF158AF51F86B82100C860DA /* Main.storyboard */; };
 		AF158AF91F86B82100C860DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF158AF81F86B82100C860DA /* Assets.xcassets */; };
 		AF158AFC1F86B82100C860DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF158AFA1F86B82100C860DA /* LaunchScreen.storyboard */; };
+		AF158B041F86B96700C860DA /* ProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF158B031F86B96700C860DA /* ProductViewController.swift */; };
+		AFE3A6AD1F90D49E0061EFC0 /* ContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFE3A6AC1F90D49E0061EFC0 /* ContactViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		AF158AF81F86B82100C860DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AF158AFB1F86B82100C860DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AF158AFD1F86B82100C860DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF158B031F86B96700C860DA /* ProductViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductViewController.swift; sourceTree = "<group>"; };
+		AFE3A6AC1F90D49E0061EFC0 /* ContactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				AF158AF81F86B82100C860DA /* Assets.xcassets */,
 				AF158AFA1F86B82100C860DA /* LaunchScreen.storyboard */,
 				AF158AFD1F86B82100C860DA /* Info.plist */,
+				AF158B031F86B96700C860DA /* ProductViewController.swift */,
+				AFE3A6AC1F90D49E0061EFC0 /* ContactViewController.swift */,
 			);
 			path = OldPhone;
 			sourceTree = "<group>";
@@ -136,6 +142,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF158B041F86B96700C860DA /* ProductViewController.swift in Sources */,
+				AFE3A6AD1F90D49E0061EFC0 /* ContactViewController.swift in Sources */,
 				AF158AF41F86B82100C860DA /* ViewController.swift in Sources */,
 				AF158AF21F86B82100C860DA /* AppDelegate.swift in Sources */,
 			);
